@@ -17,4 +17,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 
---SELECT sum(c12) FROM tbl1
+-- pd.DataFrame({'SUM(c12)':cur.execute("SELECT sum(c12) FROM tbl1").fetchall()})
