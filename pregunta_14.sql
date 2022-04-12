@@ -43,4 +43,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+SELECT A.K0,
+	   AVG(B.c21)
+FROM tbl1 A
+JOIN tbl2 B
+ON A.K1 = B.K1
+WHERE A.c13 > 400
+GROUP BY A.K0
