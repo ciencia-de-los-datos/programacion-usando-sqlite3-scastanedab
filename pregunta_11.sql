@@ -38,3 +38,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT YEAR(C14), COUNT(*) 
+FROM tbl1 
+WHERE YEAR(C14) = 2018 
+GROUP BY YEAR(C14)
