@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Pregunta 01",
-      "setup": "",
+      "setup": "pip3 install pandas",
       "run": "python3 tests.py 01",
       "input": "",
       "output": "",
