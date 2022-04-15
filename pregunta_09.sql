@@ -40,4 +40,4 @@
 --
 SELECT * 
 FROM tbl2 
-WHERE MIN(c21)
+WHERE MIN(c21);
