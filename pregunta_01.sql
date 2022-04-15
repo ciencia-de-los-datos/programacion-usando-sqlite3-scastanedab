@@ -11,4 +11,4 @@
 --
 --  Escriba una consulta en SQL que devuelva la suma del campo c12.
 -- 
-    SELECT sum(c12) FROM tbl1
+    SELECT sum(c12) FROM tbl1;
