@@ -41,7 +41,6 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT  YEAR(c23), 
-		AVG(c21) 
+SELECT  YEAR(c23), AVG(c21) 
 FROM tbl2 
-GROUP BY YEAR(c23)
+GROUP BY YEAR(c23);
