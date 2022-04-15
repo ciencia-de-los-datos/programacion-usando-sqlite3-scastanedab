@@ -22,6 +22,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-SELECT TOP(5)* 
-FROM tbl1 
-ORDER BY c14 ASC
+SELECT TOP(5)* FROM tbl1 ORDER BY c14 ASC;
