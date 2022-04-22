@@ -43,4 +43,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-SELECT A.K0, avg(B.c21) FROM tbl1 A JOIN tbl2 B ON A.K1 = B.K1 WHERE A.c13 > 400 GROUP BY A.K0;
+SELECT K0, avg(c21) FROM tbl1 JOIN tbl2 ON tbl1.K1 = tbl2.K1 WHERE c13 > 400 GROUP BY K0;
