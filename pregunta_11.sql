@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
-SELECT strftime('%Y',C14), COUNT(*) FROM tbl1 WHERE strftime('%Y',C14) = '2018';
+SELECT strftime('%Y', C14), COUNT(*) FROM tbl1 WHERE strftime('%Y', C14) = '2018';
