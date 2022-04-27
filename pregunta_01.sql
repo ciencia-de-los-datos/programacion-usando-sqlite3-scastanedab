@@ -11,9 +11,4 @@
 --
 --  Escriba una consulta en SQL que devuelva la suma del campo c12.
 -- 
---  Rta/
---     SUM(c12)
---  0  15137.63
---
---  >>> Escriba su codigo a partir de este punto <<<
---
+    SELECT SUM(c12) FROM tbl1;
